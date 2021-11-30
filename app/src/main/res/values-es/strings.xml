@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Números</string>
+    <string name="title">Colección de Números</string>
+    <string name="add_number">Ingresa un número</string>
+    <string name="add">Agregar</string>
+    <string name="required_field">Requerido</string>
+    <string name="no_selected">Sin selección</string>
+    <string name="no_select_title">No seleccionaste</string>
+    <string name="no_select_msg">Vuelve a desplegar la lista y asegúrate de elegir correctamente a alguna</string>
+    <string name="ascending">Menor a mayor</string>
+    <string name="descending">Mayor a menor</string>
+
+    <string name="delete">Eliminado: %1$s</string>
+    <string name="select">Seleccionado: %1$s</string>
+    <string name="add_new_number">Añadido: %1$s</string>
+
+    <string name="ok">OK</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Numbers</string>
+    <string name="title">Add a number</string>
+    <string name="add_number">Ingress a number</string>
+    <string name="add">Add</string>
+    <string name="required_field">Required</string>
+    <string name="no_selected">Nothing Selected</string>
+    <string name="no_select_title">Without election</string>
+    <string name="no_select_msg">Select an option from the list</string>
+    <string name="ascending">Low to high</string>
+    <string name="descending">High to low</string>
+
+    <string name="delete">Delete: %1$s</string>
+    <string name="select">Select: %1$s</string>
+
+    <string name="ok">OK</string>
+    <string name="add_new_number">Added: %1$s</string>
+</resources>
