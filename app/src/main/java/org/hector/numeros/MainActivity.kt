@@ -55,11 +55,12 @@ class MainActivity : AppCompatActivity() {
         binding.listView.onItemLongClickListener = OnItemLongClickListener { _, _, i, _ ->
             Toast.makeText(applicationContext, getString(R.string.delete, numeros[i]), Toast.LENGTH_LONG).show()
             numeros.removeAt(i)
+            binding.listView.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, numeros)
             false
         }
 
         binding.listView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-            Toast.makeText(applicationContext, getString(R.string.delete, numeros[position]), Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, getString(R.string.select, numeros[position]), Toast.LENGTH_SHORT).show()
         }
     }
 
